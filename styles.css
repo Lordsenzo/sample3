@@ -1,0 +1,52 @@
+input[type="email"]{
+    color: blue;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    position: relative;
+
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+}
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    /* position: relative;
+    z-index:;
+    top:50px ;
+    left: 50px;
+    opacity:; */
+}
+
+.four{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+.five{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(47, 9, 216);
+}
+
+section{
+    margin-top: 200px;
+    height: 700px;
+    width: 700px;
+    background-color: black;
+    
+}
+
+div:hover{
+    transition-duration: 3s;
+    transform: translate(400px);
+    transition-delay: 1s;
+    transition-timing-function: ease;
+    
+}
